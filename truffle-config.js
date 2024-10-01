@@ -16,7 +16,7 @@ module.exports = {
         `https://eth-sepolia.g.alchemy.com/v2/${process.env.REACT_APP_ALCHEMY_API}` // Chainlink Sepolia RPC
       ),
       network_id: 11155111, // Sepolia network ID
-      gas: 101444,         // Gas limit
+      gas: 101444,         // Min Gas limit
       gasPrice: 100, // 2,000,000×5gwei=0.01ETH
       confirmations: 2,     // Wait for 2 confirmations
       timeoutBlocks: 200,   // Wait up to 200 blocks for deployment
