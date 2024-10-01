@@ -17,7 +17,7 @@ module.exports = {
       ),
       network_id: 11155111, // Sepolia network ID
       gas: 101444,         // Gas limit
-      gasPrice: 100, // 3 gwei (3000000000 wei) 2,000,000×5gwei=0.01ETH
+      gasPrice: 100, // 2,000,000×5gwei=0.01ETH
       confirmations: 2,     // Wait for 2 confirmations
       timeoutBlocks: 200,   // Wait up to 200 blocks for deployment
       skipDryRun: true      // Skip dry run before migrations
