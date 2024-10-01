@@ -16,7 +16,7 @@ const ABI = [
   "event TodoEdited(uint256 index, string newText)"
 ];
 
-const CONTRACT_ADDRESS = "0x4f97A06Cb81AFBB70976aE6cFF07b9b0f44e31CB";
+const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS;
 
 const TodoItem = React.memo(({ todo, index, onToggle, onRemove, onEdit, disabled }) => {
   const [isEditing, setIsEditing] = useState(false);
