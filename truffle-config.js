@@ -13,7 +13,7 @@ module.exports = {
     sepolia: {
       provider: () => new HDWalletProvider(
         process.env.REACT_APP_MNEMONIC, // Your MetaMask mnemonic from .env file
-        `https://eth-sepolia.g.alchemy.com/v2/${process.env.REACT_APP_ALCHEMY_API}` // Chainlink Sepolia RPC
+        `https://eth-sepolia.g.alchemy.com/v2/${process.env.REACT_APP_ALCHEMY_API}` 
       ),
       network_id: 11155111, // Sepolia network ID
       gas: 101444,         // Min Gas limit
