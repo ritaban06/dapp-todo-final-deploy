@@ -19,7 +19,7 @@ module.exports = {
       gas: 29988593,         // Gas limit
       gasPrice: 2000000,         // 2,000,000×5gwei=0.01ETH
       confirmations: 2,     // Wait for 2 confirmations
-      timeoutBlocks: 20,   // Wait up to 20 blocks for deployment
+      timeoutBlocks: 200,   // Wait up to 200 blocks for deployment
       skipDryRun: true      // Skip dry run before migrations
     }
   },
