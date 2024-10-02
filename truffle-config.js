@@ -16,8 +16,8 @@ module.exports = {
         `https://eth-sepolia.g.alchemy.com/v2/${process.env.REACT_APP_ALCHEMY_API}` 
       ),
       network_id: 11155111, // Sepolia network ID
-      gas: 20000000,         // Gas limit
-      gasPrice: 1500,         // 2,000,000×5gwei=0.01ETH
+      gas: 29988593,         // Gas limit
+      gasPrice: 2000000,         // 2,000,000×5gwei=0.01ETH
       confirmations: 2,     // Wait for 2 confirmations
       timeoutBlocks: 20,   // Wait up to 20 blocks for deployment
       skipDryRun: true      // Skip dry run before migrations
